@@ -17,3 +17,10 @@ iOSOpenDev是一个开源项目，它可以设置iOS SDK以允许在Xcode中进�
 * 在 `/应用程序/Xcode/Content/Developer/Platforms/iPhoneSimulator.platform/Developer/` 文件夹下创建usr文件夹，usr文件夹下再创建一个名为bin的文件夹
 
 打开Xcode创建新项目,在iOS分类下,最下面会看到iOSOpenDev的模版.
+
+
+# 诡异的事情
+
+以上修改问题,只是为了能将iOSOpenDev工具顺利安装,但是安装之后,我的Xcode创建的iOS项目,会隐藏掉"Signing & Capabilities"
+
+我将以上2个Specifications文件夹删掉了,经过测试并不影响创建插件项目.并且"Signing & Capabilities"又显示出来了
